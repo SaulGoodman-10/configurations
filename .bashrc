@@ -1,0 +1,7 @@
+alias load_bashrc="source $HOME/.bashrc"
+alias mod_bashrc="vim $HOME/.bashrc"
+alias check_temp="vcgencmd measure_temp"
+alias check_cpu="htop"
+alias check_space="df -h /dev/mmcblk0p2"
+alias check_temp_live="watch -n 2 vcgencmd measure_temp"
+alias list_device="lsblk -o NAME,SIZE,TYPE,MOUNTPOINT"
