@@ -1,17 +1,16 @@
-use_bashrc:
+export_bashrc:
 	cp .bashrc $(HOME)/.bashrc
 
-copy_bashrc:
-	@cp $(HOME)/.bashrc ./.bashrc
+import_bashrc:
+	cp $(HOME)/.bashrc ./.bashrc
 
 push_updates:
-	@git commit -m "bashrc updated"
+	git commit -a -m "bashrc updated"
+	git push
 
-all: copy_bashrc push_updates
 # Help
 help:
 	@echo "Comandi disponibili:"
-	@echo "  make use_bashrc   -> copy .bashrc file to home ditectory"
-	@echo "  make copy_bashrc  -> copy .bashrc file from home ditectory"
-	@echo "  make push_updates -> commit updated"
-	@echo "  make all          -> run all"
+	@echo "  make export_bashrc  -> copy .bashrc file to home directory"
+	@echo "  make import_bashrc  -> copy .bashrc file from home directory"
+	@echo "  make push_updates   -> commit updated"

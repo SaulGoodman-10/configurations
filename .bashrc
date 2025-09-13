@@ -1,3 +1,8 @@
+# ENVIRONMENT VARIABLES
+export downloads="/home/seba/downloads/"
+export plex_movies="/var/lib/plexmediaserver/movies/"
+export plex_tv="/var/lib/plexmediaserver/tv/"
+
 # SYSTEM
 alias ll="ls -lah --color=auto --group-directories-first"
 
