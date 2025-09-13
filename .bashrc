@@ -7,8 +7,10 @@ export plex_tv="/var/lib/plexmediaserver/tv/"
 alias ll="ls -lah --color=auto --group-directories-first"
 
 # BASHRC
-alias load_bashrc="source $HOME/.bashrc"
-alias mod_bashrc="vim $HOME/.bashrc"
+alias bashrc_load="source $HOME/.bashrc"
+alias bashrc_mod="vim $HOME/.bashrc"
+alias bashrc_import="cp $HOME/.bashrc $HOME/git_repo/bashrc/.bashrc"
+alias bashrc_push="cd $HOME/git_repo/bashrc/; git commit -a -m 'UPDATE'; git push"
 
 # CHECKs
 alias check_cpu="htop"
