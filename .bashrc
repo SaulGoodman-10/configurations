@@ -1,3 +1,6 @@
+# SYSTEM
+alias ll="ls -lah --color=auto --group-directories-first"
+
 # BASHRC
 alias load_bashrc="source $HOME/.bashrc"
 alias mod_bashrc="vim $HOME/.bashrc"
