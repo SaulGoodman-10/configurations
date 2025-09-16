@@ -1,0 +1,61 @@
+{
+        "todohighlight.isEnable": true,
+        "todohighlight.isCaseSensitive": true,
+        "todohighlight.keywords": [
+            {
+                "text": "DAHU",
+                "color": "#000000",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#cee227",
+                //other styling properties goes here ... 
+            },
+            {
+                "text": "CORTANA",
+                "color": "#000080",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#ee29d3",
+                //other styling properties goes here ... 
+            },
+            {
+                "text": "UNCONNECTED",
+                "color": "#000080",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#8fbc8f",
+                //other styling properties goes here ... 
+            },
+            {
+                "text": "START",
+                "color": "#000080",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#CCCCFF",
+                //other styling properties goes here ... 
+            },
+            {
+                "text": "STOP",
+                "color": "#000080",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#CCCCFF",
+                //other styling properties goes here ... 
+            },
+            {
+                "text": "TODO",
+                "color": "black",
+                "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                "backgroundColor": "#52c0f7",
+                //other styling properties goes here ... 
+            }
+        ],
+        "security.allowedUNCHosts": [
+            "prj04-smb.cto.st.com"
+        ],
+        "security.workspace.trust.untrustedFiles": "open",
+        "explorer.confirmDelete": false,
+        "git.autofetch": true,
+        "workbench.colorTheme": "Andromeda Colorizer",
+        "terminal.integrated.enableMultiLinePasteWarning": "never",
+        "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#FFBF0050",
+            "editor.selectionBackground": "#DFFF0050",
+            "editor.selectionHighlightBackground": "#DFFF0050"
+        }
+}
