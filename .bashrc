@@ -5,6 +5,7 @@ export plex_tv="/mnt/plexdrive/plex/tv/"
 
 # SYSTEM
 alias ll="ls -lah --color=auto --group-directories-first"
+alias cp_mod="rsync -ah --info=progress2"
 
 # BASHRC
 alias bashrc_load="source $HOME/.bashrc"
