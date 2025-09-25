@@ -18,6 +18,7 @@ alias bashrc_push="cd $HOME/git_repo/configurations/; git commit -a -m 'UPDATE';
 alias check_cpu="htop"
 alias check_storage="df -h /dev/mmcblk0p2"
 alias check_temp="watch -n 2 vcgencmd measure_temp"
+alias check_ip="curl ipinfo.io"
 
 # MISC
 alias list_device="lsblk -o NAME,SIZE,TYPE,MOUNTPOINT"
@@ -25,3 +26,8 @@ alias list_device="lsblk -o NAME,SIZE,TYPE,MOUNTPOINT"
 #PLEX
 alias plex_start="sudo systemctl start plexmediaserver"
 alias plex_status="sudo systemctl status plexmediaserver"
+
+# NORDVPN
+alias nord_kill_on="nordvpn set killswitch on"
+alias nord_kill_off="nordvpn set killswitch off"
+alias nord_serbia="nordvpn connect 'Serbia'"
