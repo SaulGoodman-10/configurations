@@ -11,8 +11,8 @@ alias show_active_processes='systemctl list-units --type=service --state=running
 # BASHRC
 alias bashrc_load="source $HOME/.bashrc"
 alias bashrc_mod="vim $HOME/.bashrc"
-alias bashrc_import="cp $HOME/.bashrc $HOME/git_repo/configurations/.bashrc"
-alias bashrc_push="cd $HOME/git_repo/configurations/; git commit -a -m 'UPDATE'; git push"
+alias bashrc_import="cp $HOME/.bashrc $HOME/git_repos/configurations/.bashrc"
+alias bashrc_push="cd $HOME/git_repos/configurations/; git commit -a -m 'UPDATE'; git push"
 
 # CHECKs
 alias check_cpu="htop"
@@ -31,3 +31,9 @@ alias plex_status="sudo systemctl status plexmediaserver"
 alias nord_kill_on="nordvpn set killswitch on"
 alias nord_kill_off="nordvpn set killswitch off"
 alias nord_serbia="nordvpn connect 'Serbia'"
+
+# Services
+alias services_start="~/script/services.sh start"
+alias services_stop="~/script/services.sh stop"
+alias services_restart="~/script/services.sh restart"
+alias services_status="~/script/services.sh status"
